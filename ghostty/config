@@ -1,0 +1,17 @@
+theme = catppuccin-frappe
+background = #101928
+foreground = #c6d0f5
+background-opacity = 0.85
+background-blur-radius = 20
+
+macos-titlebar-style = "hidden"
+macos-titlebar-proxy-icon = "hidden"
+window-padding-y = 10
+mouse-hide-while-typing = true
+window-decoration = true
+window-save-state = "always"
+
+keybind = cmd+t=new_split:right
+keybind = alt+enter=toggle_quick_terminal
+keybind = alt+h=toggle_split_zoom
+keybind = cmd+1=goto_split:previous
