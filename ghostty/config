@@ -1,12 +1,13 @@
 theme = catppuccin-frappe
-background = #101928
 foreground = #c6d0f5
+background = #101928
 background-opacity = 0.85
-background-blur-radius = 20
+background-blur-radius = 10
+font-size = 15
 
 macos-titlebar-style = "hidden"
 macos-titlebar-proxy-icon = "hidden"
-window-padding-y = 10
+window-padding-y = 5
 mouse-hide-while-typing = true
 window-decoration = true
 window-save-state = "always"
