@@ -24,11 +24,6 @@ local cal = sbar.add("item", {
 	update_freq = 30,
 	padding_left = 1,
 	padding_right = 1,
-	background = {
-		color = colors.bg2,
-		border_color = colors.black,
-		border_width = 1,
-	},
 })
 
 -- Double border for calendar using a single item bracket
@@ -44,5 +39,5 @@ local cal = sbar.add("item", {
 sbar.add("item", { position = "right", width = settings.group_paddings })
 
 cal:subscribe({ "forced", "routine", "system_woke" }, function(env)
-	cal:set({ icon = os.date("%a. %d %b."), label = os.date("%H:%M") })
+	cal:set({ icon = os.date("%a %b %d"), label = os.date("%H:%M") })
 end)

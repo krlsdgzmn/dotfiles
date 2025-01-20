@@ -29,6 +29,7 @@ for i = 1, 10, 1 do
 			color = colors.bg1,
 			border_width = 1,
 			height = 26,
+			corner_radius = 5,
 			border_color = colors.black,
 		},
 		popup = { background = { border_width = 5, border_color = colors.black } },
@@ -42,7 +43,8 @@ for i = 1, 10, 1 do
 			color = colors.transparent,
 			border_color = colors.bg2,
 			height = 28,
-			border_width = 2,
+			border_width = 1,
+			corner_radius = 5,
 		},
 	})
 
@@ -60,7 +62,7 @@ for i = 1, 10, 1 do
 		background = {
 			drawing = true,
 			image = {
-				corner_radius = 9,
+				corner_radius = 5,
 				scale = 0.2,
 			},
 		},
