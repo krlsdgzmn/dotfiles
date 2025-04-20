@@ -105,7 +105,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias v="nvim"
 alias vim="nvim"
-alias vi="vi"
+alias vi="nvim"
 alias c="clear"
 
 
