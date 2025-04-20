@@ -1,0 +1,24 @@
+theme = catppuccin-frappe
+foreground = #c6d0f5
+background = #101928
+background-opacity = 0.85
+background-blur-radius = 20
+font-size = 18
+font-family = "JetBrainsMono Nerd Font"
+
+macos-titlebar-style = "hidden"
+macos-titlebar-proxy-icon = "hidden"
+window-padding-y = 5
+mouse-hide-while-typing = true
+window-decoration = true
+window-save-state = "always"
+
+keybind = cmd+t=new_split:right
+keybind = alt+enter=toggle_quick_terminal
+keybind = alt+h=toggle_split_zoom
+keybind = cmd+1=goto_split:previous
+
+keybind = cmd+j=unbind
+keybind = cmd+h=unbind
+keybind = cmd+k=unbind
+keybind = cmd+l=unbind
