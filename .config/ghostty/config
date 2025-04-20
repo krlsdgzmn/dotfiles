@@ -1,8 +1,8 @@
-theme = catppuccin-frappe
+theme = catppuccin-mocha
 foreground = #c6d0f5
 background = #101928
-background-opacity = 0.85
-background-blur-radius = 20
+background-opacity = 0.75
+background-blur-radius = 10
 font-size = 18
 font-family = "JetBrainsMono Nerd Font"
 
