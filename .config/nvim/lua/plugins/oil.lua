@@ -1,12 +1,14 @@
-return  {
-	'stevearc/oil.nvim',
-	---@module 'oil'
-	---@type oil.SetupOpts
-	opts = {
-	    view_options = {
-		show_hidden = true,
-	    }
+    return  {
+    'stevearc/oil.nvim',
+    ---@module 'oil'
+    ---@type oil.SetupOpts
+    opts = {
+	view_options = {
+	    show_hidden = true,
 	},
-	dependencies = { { "echasnovski/mini.icons", opts = {} } },
-	lazy = false,
+	delete_to_trash = true,
+	skip_confirm_for_simple_edits = true,
+    },
+    dependencies = { { "echasnovski/mini.icons", opts = {} } },
+    lazy = false,
 }
