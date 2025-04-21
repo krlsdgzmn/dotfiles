@@ -8,6 +8,7 @@ return {
 			typescript = { "prettierd", "prettier", stop_after_first = true },
 			html = { "prettierd", "prettier", stop_after_first = true },
 			css = { "prettierd", "prettier", stop_after_first = true },
+			["*"] = { "trim_newlines", "trim_whitespace", "squeeze_blanks" },
 		},
 		format_on_save = {
 			timeout_ms = 500,
