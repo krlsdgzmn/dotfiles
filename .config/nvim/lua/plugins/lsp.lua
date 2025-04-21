@@ -122,6 +122,7 @@ return {
 			html = {},
 			css_variables = {},
 			tailwindcss = {},
+			jsonls = {},
 			lua_ls = {
 				settings = {
 					Lua = {
