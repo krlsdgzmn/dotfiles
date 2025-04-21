@@ -15,6 +15,21 @@ vim.api.nvim_set_keymap(
 	{ noremap = true, silent = true, desc = "Switch to previous buffer" }
 )
 
+-- load the session for the current directory
+vim.keymap.set("n", "<leader>qs", function()
+	require("persistence").load()
+end)
+
+-- Select a session to load
+vim.keymap.set("n", "<leader>qs", function()
+	require("persistence").select()
+end)
+
+-- Load the last session
+vim.keymap.set("n", "<leader>ql", function()
+	require("persistence").load({ last = true })
+end)
+
 -- Show diagnostics in a floating window
 vim.keymap.set("n", "D", function()
 	vim.diagnostic.open_float()
