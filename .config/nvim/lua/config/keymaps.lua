@@ -14,19 +14,18 @@ vim.api.nvim_set_keymap(
 	":b#<CR>",
 	{ noremap = true, silent = true, desc = "Switch to previous buffer" }
 )
-
 -- load the session for the current directory
-vim.keymap.set("n", "<leader>qs", function()
+vim.keymap.set("n", "<leader>ql", function()
 	require("persistence").load()
 end)
 
--- Select a session to load
-vim.keymap.set("n", "<leader>qs", function()
+-- select a session to load
+vim.keymap.set("n", "<leader>qS", function()
 	require("persistence").select()
 end)
 
--- Load the last session
-vim.keymap.set("n", "<leader>ql", function()
+-- load the last session
+vim.keymap.set("n", "<leader>qs", function()
 	require("persistence").load({ last = true })
 end)
 
