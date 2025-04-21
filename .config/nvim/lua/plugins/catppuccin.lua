@@ -5,6 +5,6 @@ return {
 			transparent_background = true,
 			term_colors = true,
 		})
-		vim.cmd.colorscheme "catppuccin-mocha"
-	end
+		vim.cmd.colorscheme("catppuccin-mocha")
+	end,
 }
