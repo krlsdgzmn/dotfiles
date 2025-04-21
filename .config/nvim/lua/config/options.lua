@@ -13,10 +13,11 @@ vim.opt.scrolloff = 5
 vim.opt.mouse = ""
 vim.opt.cursorline = true
 
--- vim.opt.shiftwidth = 4
--- vim.opt.smarttab = true
--- vim.opt.smartindent = true
--- vim.opt.autoindent = true
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.smarttab = true
+vim.opt.smartindent = true
+vim.opt.autoindent = true
 
 vim.opt.undofile = true
 
