@@ -12,7 +12,7 @@ return {
 		{
 			"<leader>fg",
 			function()
-				require("fzf-lua").live_grep()
+				require("fzf-lua").grep_project()
 			end,
 		},
 		{
