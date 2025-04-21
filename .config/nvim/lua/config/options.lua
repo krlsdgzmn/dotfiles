@@ -11,7 +11,7 @@ vim.opt.signcolumn = "yes"
 vim.opt.list = true
 vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 vim.opt.scrolloff = 5
--- vim.opt.cmdheight = 0
+vim.opt.cmdheight = 0
 
 vim.opt.mouse = ""
 vim.opt.cursorline = true
