@@ -104,10 +104,11 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias v="nvim"
+alias s="source ~/.zshrc"
 alias vim="nvim"
 alias vi="nvim"
 alias c="clear"
-
+alias lg="lazygit"
 
 # bun completions
 [ -s "/Users/krlsdgzmn/.bun/_bun" ] && source "/Users/krlsdgzmn/.bun/_bun"
