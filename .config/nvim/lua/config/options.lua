@@ -1,15 +1,12 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
-vim.g.autoformat = true
-vim.opt.formatexpr = "v:lua.require'conform'.formatexpr()"
-vim.opt.formatoptions = "jcroqlnt"
 
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.showmode = false
 vim.opt.signcolumn = "yes"
 vim.opt.list = true
-vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
+vim.opt.listchars = { tab = "»", trail = "·", nbsp = "␣" }
 vim.opt.scrolloff = 5
 vim.opt.cmdheight = 0
 
@@ -29,13 +26,13 @@ vim.opt.termguicolors = true
 vim.opt.undofile = true
 
 vim.schedule(function()
-	vim.opt.clipboard = "unnamedplus"
+  vim.opt.clipboard = "unnamedplus"
 end)
 
 vim.api.nvim_create_autocmd("textyankpost", {
-	desc = "Highlight when yanking (copying) text",
-	group = vim.api.nvim_create_augroup("kickstart-highlight-yank", { clear = true }),
-	callback = function()
-		vim.highlight.on_yank()
-	end,
+  desc = "Highlight when yanking (copying) text",
+  group = vim.api.nvim_create_augroup("kickstart-highlight-yank", { clear = true }),
+  callback = function()
+    vim.highlight.on_yank()
+  end,
 })
