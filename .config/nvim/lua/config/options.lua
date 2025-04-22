@@ -6,7 +6,7 @@ vim.opt.relativenumber = true
 vim.opt.showmode = false
 vim.opt.signcolumn = "yes"
 vim.opt.list = true
-vim.opt.listchars = { tab = "»", trail = "·", nbsp = "␣" }
+vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 vim.opt.scrolloff = 5
 vim.opt.cmdheight = 0
 
