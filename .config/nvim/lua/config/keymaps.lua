@@ -9,59 +9,59 @@ vim.keymap.set("n", "<C-a>", "gg<S-v>G", { desc = "Select all" })
 
 -- Switch to the previously used buffer
 vim.api.nvim_set_keymap(
-	"n",
-	"<leader><CR>",
-	":b#<CR>",
-	{ noremap = true, silent = true, desc = "Switch to previous buffer" }
+  "n",
+  "<leader><CR>",
+  ":b#<CR>",
+  { noremap = true, silent = true, desc = "Switch to previous buffer" }
 )
 -- load the session for the current directory
 vim.keymap.set("n", "<leader>ql", function()
-	require("persistence").load()
+  require("persistence").load()
 end)
 
 -- select a session to load
 vim.keymap.set("n", "<leader>qS", function()
-	require("persistence").select()
+  require("persistence").select()
 end)
 
 -- load the last session
 vim.keymap.set("n", "<leader>qs", function()
-	require("persistence").load({ last = true })
+  require("persistence").load({ last = true })
 end)
 
 -- Show diagnostics in a floating window
 vim.keymap.set("n", "D", function()
-	vim.diagnostic.open_float()
+  vim.diagnostic.open_float()
 end, { desc = "Show diagnostics in float" })
 
 -- Toggle diagnostics on/off
 vim.keymap.set("n", "<leader>ud", function()
-	vim.diagnostic.enable(not vim.diagnostic.is_enabled())
+  vim.diagnostic.enable(not vim.diagnostic.is_enabled())
 end, { desc = "Toggle diagnostics" })
 
 -- Format current buffer using Conform
 vim.keymap.set("n", "<leader>cf", function()
-	require("conform").format({
-		lsp_format = "fallback",
-	})
+  require("conform").format({
+    lsp_format = "fallback",
+  })
 end, { desc = "Format buffer (Conform)" })
 
 -- Organize imports via LSP code action
 vim.keymap.set("n", "<leader>co", function()
-	vim.lsp.buf.code_action({
-		context = {
-			only = { "source.organizeImports" },
-			diagnostics = {},
-		},
-	})
+  vim.lsp.buf.code_action({
+    context = {
+      only = { "source.organizeImports" },
+      diagnostics = {},
+    },
+  })
 end, { desc = "Organize imports" })
 
 -- Add missing imports (for TypeScript)
 vim.keymap.set("n", "<leader>cm", function()
-	vim.lsp.buf.code_action({
-		context = {
-			only = { "source.addMissingImports.ts" },
-			diagnostics = {},
-		},
-	})
+  vim.lsp.buf.code_action({
+    context = {
+      only = { "source.addMissingImports.ts" },
+      diagnostics = {},
+    },
+  })
 end, { desc = "Add missing imports (TS)" })

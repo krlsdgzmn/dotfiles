@@ -23,7 +23,7 @@ vim.opt.autoindent = true
 vim.opt.breakindent = true
 vim.opt.termguicolors = true
 
-vim.opt.undofile = true
+-- vim.opt.undofile = true
 
 vim.schedule(function()
   vim.opt.clipboard = "unnamedplus"
