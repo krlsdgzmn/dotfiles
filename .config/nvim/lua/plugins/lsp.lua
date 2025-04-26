@@ -125,10 +125,11 @@ return {
           },
         },
       },
+      java_language_server = {},
     }
 
     local ensure_installed = vim.tbl_keys(servers or {})
-    vim.list_extend(ensure_installed, { "prettierd", "prettier", "isort", "black", "stylua" })
+    vim.list_extend(ensure_installed, { "prettierd", "prettier", "isort", "black", "stylua", "google-java-format" })
     require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
     require("mason-lspconfig").setup({
       ensure_installed = {},
