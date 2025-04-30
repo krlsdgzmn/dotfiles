@@ -23,6 +23,10 @@
 
 ## Apps
 
+- brew install stow
+- brew install ripgrep
+- brew install fzf
+- brew install fastfetch
 - brew install neovim
 - brew install --cask nikitabobko/tap/aerospace
 - brew install --cask ghostty
