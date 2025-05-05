@@ -1,8 +1,8 @@
 theme = catppuccin-mocha
-foreground = #c6d0f5
+cursor-color = #fab387
 background = #101928
-background-opacity = 0.75
-background-blur-radius = 10
+background-opacity = 0.8
+background-blur-radius = 0
 font-size = 18
 font-family = "JetBrainsMono Nerd Font"
 
