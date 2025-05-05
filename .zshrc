@@ -27,3 +27,8 @@ export NVM_DIR="$HOME/.nvm"
 
 # rust
 . "$HOME/.local/bin/env"
+
+# ruby
+export PATH="/opt/homebrew/opt/ruby@3.4/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/ruby@3.4/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/ruby@3.4/include"
