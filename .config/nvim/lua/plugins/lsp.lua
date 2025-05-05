@@ -6,6 +6,7 @@ return {
     "WhoIsSethDaniel/mason-tool-installer.nvim",
     { "j-hui/fidget.nvim", opts = {} },
     "saghen/blink.cmp",
+    "mfussenegger/nvim-jdtls",
   },
   config = function()
     vim.api.nvim_create_autocmd("LspAttach", {
@@ -125,7 +126,8 @@ return {
           },
         },
       },
-      java_language_server = {},
+      java_language_server = { enabled = false },
+      jdtls = {},
     }
 
     local ensure_installed = vim.tbl_keys(servers or {})
