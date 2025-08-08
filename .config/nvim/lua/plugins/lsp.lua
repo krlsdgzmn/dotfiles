@@ -111,7 +111,7 @@ return {
     local capabilities = require("blink.cmp").get_lsp_capabilities()
 
     local servers = {
-      ts_ls = { enabled = false },
+      -- ts_ls = { enabled = false },
       vtsls = {},
       html = {},
       css_variables = {},
@@ -126,12 +126,17 @@ return {
           },
         },
       },
-      java_language_server = { enabled = false },
+      -- java_language_server = { enabled = false },
       jdtls = {},
+      vimls = {},
+      gopls = {},
     }
 
     local ensure_installed = vim.tbl_keys(servers or {})
-    vim.list_extend(ensure_installed, { "prettierd", "prettier", "isort", "black", "stylua", "google-java-format" })
+    vim.list_extend(
+      ensure_installed,
+      { "goimports", "prettierd", "prettier", "isort", "black", "stylua", "google-java-format" }
+    )
     require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
     require("mason-lspconfig").setup({
       ensure_installed = {},
