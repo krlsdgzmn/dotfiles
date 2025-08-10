@@ -1,9 +1,9 @@
 theme = catppuccin-mocha
 cursor-color = #fab387
 background = #101928
-background-opacity = 0.8
-background-blur-radius = 0
-font-size = 18
+background-opacity = 0.85
+background-blur-radius = 20
+font-size = 22
 font-family = "JetBrainsMono Nerd Font"
 
 macos-titlebar-style = "hidden"
@@ -13,9 +13,9 @@ mouse-hide-while-typing = true
 window-decoration = true
 window-save-state = "always"
 
-keybind = cmd+t=new_split:right
+keybind = cmd+t=new_split:down
 keybind = alt+enter=toggle_quick_terminal
-keybind = alt+h=toggle_split_zoom
+keybind = control+1=toggle_split_zoom
 keybind = cmd+1=goto_split:previous
 
 keybind = cmd+j=unbind
