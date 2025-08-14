@@ -130,6 +130,8 @@ return {
       jdtls = {},
       vimls = {},
       gopls = {},
+      dockerls = {},
+      yamlls = {},
     }
 
     local ensure_installed = vim.tbl_keys(servers or {})
