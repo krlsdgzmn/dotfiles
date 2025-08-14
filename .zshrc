@@ -32,3 +32,6 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="/opt/homebrew/opt/ruby@3.4/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/opt/ruby@3.4/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/ruby@3.4/include"
+
+# go
+export PATH=$HOME/go/bin:$PATH
