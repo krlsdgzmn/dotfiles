@@ -132,6 +132,7 @@ return {
       gopls = {},
       dockerls = {},
       yamlls = {},
+      postgres_lsp = {},
     }
 
     local ensure_installed = vim.tbl_keys(servers or {})
