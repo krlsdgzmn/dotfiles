@@ -13,11 +13,7 @@ mouse-hide-while-typing = true
 window-decoration = true
 window-save-state = "always"
 
-keybind = cmd+t=new_split:down
-keybind = alt+enter=toggle_quick_terminal
-keybind = control+1=toggle_split_zoom
-keybind = cmd+1=goto_split:previous
-
+keybind = cmd+t=unbind
 keybind = cmd+j=unbind
 keybind = cmd+h=unbind
 keybind = cmd+k=unbind
