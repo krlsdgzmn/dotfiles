@@ -35,3 +35,6 @@ export CPPFLAGS="-I/opt/homebrew/opt/ruby@3.4/include"
 
 # go
 export PATH=$HOME/go/bin:$PATH
+
+# postgres
+export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
