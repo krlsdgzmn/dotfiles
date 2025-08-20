@@ -9,7 +9,7 @@ return {
       right_pad = 1,
     },
     heading = {
-      sign = false,
+      sign = true,
       icons = {},
     },
     checkbox = {
