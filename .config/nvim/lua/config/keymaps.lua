@@ -65,3 +65,6 @@ vim.keymap.set("n", "<leader>cm", function()
     },
   })
 end, { desc = "Add missing imports (TS)" })
+--
+-- Normal mode mapping to toggle Twilight
+vim.keymap.set("n", "<leader>ut", ":Twilight<CR>", { desc = "Toggle Twilight" })
