@@ -3,7 +3,7 @@ cursor-color = #fab387
 background = #101928
 background-opacity = 0.85
 background-blur-radius = 20
-font-size = 22
+font-size = 20
 font-family = "JetBrainsMono Nerd Font"
 
 macos-titlebar-style = "hidden"
