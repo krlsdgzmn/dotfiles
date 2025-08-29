@@ -12,6 +12,7 @@ alias vi="nvim"
 alias c="clear"
 alias lg="lazygit"
 alias ff="fastfetch"
+alias z="zellij"
 
 # bun completions
 [ -s "/Users/krlsdgzmn/.bun/_bun" ] && source "/Users/krlsdgzmn/.bun/_bun"
