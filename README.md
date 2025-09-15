@@ -21,6 +21,7 @@
 ## Apps
 
 - brew install bash
+- brew install starship
 - brew install stow
 - brew install ripgrep
 - brew install fzf
