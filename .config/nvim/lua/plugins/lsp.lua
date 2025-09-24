@@ -133,6 +133,8 @@ return {
       dockerls = {},
       yamlls = {},
       postgres_lsp = {},
+      pylsp = {},
+      robotframework_ls = {},
     }
 
     local ensure_installed = vim.tbl_keys(servers or {})
