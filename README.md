@@ -4,11 +4,6 @@
 
 - /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-## Bash Configuration
-
-- sudo bash -c "echo $(which bash) >> /etc/shells"
-- bash -c "chsh -s $(which bash)"
-
 ## Keyboard Configuration
 
 - defaults write -g InitialKeyRepeat -int 12
@@ -20,18 +15,4 @@
 
 ## Apps
 
-- brew install bash
-- brew install starship
-- brew install stow
-- brew install ripgrep
-- brew install fzf
-- brew install fd
-- brew install uv
-- brew install zellij
-- brew install neovim
-- brew install lazygit
-- brew install --cask nikitabobko/tap/aerospace
-- brew install --cask ghostty
-- brew install --cask raycast
-- brew install --cask karabiner-elements
-- brew install --cask font-jetbrains-mono-nerd-font
+- brew install bash stow ripgrep fzf fd uv zellij neovim lazygit ghostty raycast font-jetbrains-mono-nerd-font

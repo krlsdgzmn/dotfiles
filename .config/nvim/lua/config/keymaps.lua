@@ -10,7 +10,7 @@ vim.keymap.set("n", "<C-a>", "gg<S-v>G", { desc = "Select all" })
 -- Switch to the previously used buffer
 vim.api.nvim_set_keymap(
   "n",
-  "<leader><CR>",
+  "<leader> ",
   ":b#<CR>",
   { noremap = true, silent = true, desc = "Switch to previous buffer" }
 )
