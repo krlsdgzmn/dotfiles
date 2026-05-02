@@ -15,4 +15,4 @@
 
 ## Apps
 
-- brew install bash stow ripgrep fzf fd uv zellij neovim lazygit ghostty raycast font-jetbrains-mono-nerd-font
+- brew install karabiner-elements stow ripgrep fzf fd uv zellij neovim lazygit ghostty raycast font-jetbrains-mono-nerd-font
